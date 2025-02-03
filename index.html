@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clon de Netflix</title>
+  <link rel="stylesheet" href="style.css">
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+<body>
+  <div class="header">
+    <nav>
+      <img src="images/logo.png" class="logo">
+      <div>
+        <a href="#"><img src="images/language.png" class="language-img">Español <img src="images/down-arrow.png" class="arrow"></a>
+        <a href="#">Iniciar Sesión</a>
+      </div>
+    </nav>
+    <div class="container">
+      <h1>Peliculas y series <br> ilimitadas y mucho <br> más</h1>
+      <h3>A partir de S/ 24.90. Cancela cuando quieras</h3>
+      <p>¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta oreiniciar tu membresia de Netflix.</p>
+      <div>
+        <input type="text" placeholder="tucorreo@gmail.com" class="start-input">
+        <button type="button" class="start-btn">Comenzar</button>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <div class="tendencias">
+      <h3 class="sub-title">Tendencias</h3>
+      <a href="#">Perú <img src="images/down-arrow.png" class="arrow"></a>
+      <a href="#">Peliculas <img src="images/down-arrow.png" class="arrow"></a>
+    </div>
+
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="images/imagen-1.webp"></div>
+        <div class="swiper-slide"><img src="images/imagen-2.webp"></div>
+        <div class="swiper-slide"><img src="images/imagen-3.webp"></div>
+        <div class="swiper-slide"><img src="images/imagen-4.webp"></div>
+        <div class="swiper-slide"><img src="images/imagen-5.webp"></div>
+        <div class="swiper-slide"><img src="images/imagen-6.webp"></div>
+        <div class="swiper-slide"><img src="images/imagen-7.webp"></div>
+        <div class="swiper-slide"><img src="images/imagen-8.webp"></div>
+        <div class="swiper-slide"><img src="images/imagen-9.webp"></div>
+        <div class="swiper-slide"><img src="images/imagen-10.webp"></div>
+      </div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+    </div>
+
+    <h3 class="sub-title">Más motivos para unirte</h3>
+    <div class="beneficios">
+      <div>
+        <h3>Disfruta en TV</h3>
+        <p>Ve en smart TV, PlayStation, Xbox, Chromecast, Apple TV, reproductores de Blu-ray y más.</p>
+        <img src="images/tv.png">
+      </div>
+      <div>
+        <h3>Descarga tus series para verlas offline</h3>
+        <p>Guarda tu contenido favorito y siempre tendrás algo para ver.</p>
+        <img src="images/down-arrow-2.png">
+      </div>
+      <div>
+        <h3>Disfruta donde quieras</h3>
+        <p>Películas y series ilimitadas en tu teléfono, tablet, laptop y TV.</p>
+        <img src="images/enjoy.png">
+      </div>
+      <div>
+        <h3>Crea perfiles para niños</h3>
+        <p>Los niños vivirán aventuras con sus personajes favoritos en un espacio diseñado exclusivamente para ellos, gratis con tu membresía.</p>
+        <img src="images/happy.png">
+      </div>
+
+    </div>
+
+    <div class="faq">
+      <h3 class="sub-title">Preguntas Frecuentes</h3>
+      <ul class="accordion">
+        <li>
+          <input type="checkbox" id="1">
+          <label for="1">¿Qué es Netflix?</label>
+          <div class="content">
+            Netflix es un servicio de streaming que ofrece una gran variedad de películas, series y documentales premiados en casi cualquier pantalla conectada a internet. Todo lo que quieras ver, sin límites ni comerciales, a un costo muy accesible. Siempre hay algo nuevo por descubrir, ¡y todas las semanas se agregan más películas y series!
+          </div>
+        </li>
+        <li>
+          <input type="checkbox" id="2">
+          <label for="2">¿Cúanto cuesta Netflix?</label>
+          <div class="content">
+            Disfruta Netflix en tu smartphone, tablet, smart TV, laptop o dispositivo de streaming, todo por una tarifa plana mensual. Planes desde S/ 28.90 hasta S/ 52.90 al mes. Sin costos adicionales ni contratos.
+          </div>
+        </li>
+        <li>
+          <input type="checkbox" id="3">
+          <label for="3">¿Dónde puedo ver Netflix?</label>
+          <div class="content">
+            Disfruta donde quieras, cuando quieras. Inicia sesión en tu cuenta de Netflix para ver contenido al instante a través de netflix.com desde tu computadora personal o en cualquier dispositivo con conexión a internet que cuente con la app de Netflix, como smart TV, smartphones, tablets, reproductores multimedia y consolas de juegos. Además, puedes descargar tus series favoritas con la app para iOS o Android. Con la función de descarga, puedes ver contenido donde vayas y sin conexión a internet. Lleva Netflix contigo adonde sea.
+          </div>
+        </li>
+        <li>
+          <input type="checkbox" id="4">
+          <label for="4">¿Cómo cancelo?</label>
+          <div class="content">
+            Netflix es flexible. Sin contratos molestos ni compromisos. Cancela la membresía online con solo dos clics. No hay cargos por cancelación. Empieza y termina cuando quieras.
+          </div>
+        </li>
+        <li>
+          <input type="checkbox" id="5">
+          <label for="5">¿Qué puedo ver en Netflix?</label>
+          <div class="content">
+            Netflix tiene un amplio catálogo de películas, series, documentales, animes, originales premiados y más. Todo lo que quieras ver, cuando quieras.
+          </div>
+        </li>
+        <li>
+          <input type="checkbox" id="6">
+          <label for="6">¿Es bueno Netflix para niños?</label>
+          <div class="content">
+            La experiencia de Netflix para niños está incluida en la membresía para que los padres tengan el control mientras los peques disfrutan series y películas familiares en su propio espacio. Los perfiles para niños incluyen controles parentales protegidos por PIN que te permiten restringir el contenido que pueden ver los niños en función de la clasificación por edad y bloquear determinados títulos que no quieras que los niños vean.
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="start-now">
+      <p>¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta oreiniciar tu membresia de Netflix.</p>
+      <div>
+        <input type="text" placeholder="tucorreo@gmail.com" class="start-input">
+        <button type="button" class="start-btn">Comenzar</button>
+      </div>
+    </div>
+
+    <footer>
+      <p>¿Preguntas? llama al 0-800-52352</p>
+      <div class="enlaces">
+        <div>
+          <a href="#">Preguntas frecuentes</a>
+          <a href="#">Relaciones con inversionistas</a>
+          <a href="#">Formas de ver</a>
+          <a href="#">Información corporativa</a>
+          <a href="#">Solo en Netflix</a>
+        </div>
+        <div>
+          <a href="#">Centro de ayuda</a>
+          <a href="#">Empleo</a>
+          <a href="#">Términos de uso</a>
+          <a href="#">Contáctanos</a>
+        </div>
+        <div>
+          <a href="#">Cuenta</a>
+          <a href="#">Canjear tarjetas de regalo</a>
+          <a href="#">Privacidad</a>
+          <a href="#">Prueba de velocidad</a>
+        </div>
+        <div>
+          <a href="#">Prensa</a>
+          <a href="#">Comprar tarjetas de regalo</a>
+          <a href="#">Preferencias de cookies</a>
+          <a href="#">Avisos legales</a>
+        </div>
+      </div>
+
+      <a href="#" class="traductor"><img src="images/language.png" class="language-img">Español <img src="images/down-arrow.png" class="arrow"></a>
+
+      <p>Netflix Perú</p>
+
+    </footer>
+
+
+  </main>
+
+
+
+
+
+  <script>
+    const swiper = new Swiper('.swiper', {
+    
+    speed: 800,
+    spaceBetween: 20,
+    slidesPerGroup: 2,
+
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+
+    breakpoints: {
+      300: {
+        slidesPerView: 2,
+      },
+      480: {
+        slidesPerView: 3,
+      },
+      768: {
+        slidesPerView: 4,
+      },
+      1024: {
+        slidesPerView: 4,
+      },
+      1201: {
+        slidesPerView: 5,
+      },
+    }
+
+  });
+
+
+
+  </script>
+
+
+
+
+</body>
+</html>
