@@ -19,10 +19,15 @@ a {
 .header {
   min-height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/fondo.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(images/fondo.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
+}
+.form-input {
+  display: flex;
+  align-items: center;
 }
 nav {
   display: flex;
@@ -191,11 +196,11 @@ main {
   cursor: pointer;
   position: relative;
 }
-input[type='checkbox'] {
+input[type="checkbox"] {
   display: none;
 }
 label::after {
-  content: '+';
+  content: "+";
   font-size: 34px;
   position: absolute;
   right: 20px;
@@ -210,11 +215,11 @@ label::after {
   font-size: 20px;
   transition: max-height 0.3s, padding 0.3s;
 }
-.accordion input[type='checkbox']:checked + label + .content {
+.accordion input[type="checkbox"]:checked + label + .content {
   max-height: 600px;
   padding: 30px 20px;
 }
-.accordion input[type='checkbox']:checked + label::after {
+.accordion input[type="checkbox"]:checked + label::after {
   transform: rotate(135deg);
 }
 
@@ -240,7 +245,7 @@ label::after {
 
 /* ----------footer----------- */
 footer p {
-  color: #999; 
+  color: #999;
   font-size: 14px;
 }
 footer .enlaces {
