@@ -155,10 +155,13 @@
 
     <div class="start-now">
       <p>¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta oreiniciar tu membresia de Netflix.</p>
-      <div>
-        <input type="text" placeholder="tucorreo@gmail.com" class="start-input">
-        <button type="button" class="start-btn">Comenzar</button>
-      </div>
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="124d17cd-6d19-46b7-8a63-0696bbc17a90">
+
+        <input type="email" name="email" placeholder="tucorreo@gmail.com" class="start-input" required>
+
+        <button type="submit" class="start-btn">Comenzar</button>
+      </form>
     </div>
 
     <footer>
