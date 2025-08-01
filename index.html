@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Clon de Netflix</title>
   <link rel="stylesheet" href="style.css">
-  <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </head>
+
 <body>
   <div class="header">
     <nav>
       <img src="images/logo.png" class="logo">
       <div>
-        <a href="#"><img src="images/language.png" class="language-img">Español <img src="images/down-arrow.png" class="arrow"></a>
+        <a href="#"><img src="images/language.png" class="language-img">Español <img src="images/down-arrow.png"
+            class="arrow"></a>
         <a href="#">Iniciar Sesión</a>
       </div>
     </nav>
@@ -23,10 +24,14 @@
       <h1>Peliculas y series <br> ilimitadas y mucho <br> más</h1>
       <h3>A partir de S/ 24.90. Cancela cuando quieras</h3>
       <p>¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta oreiniciar tu membresia de Netflix.</p>
-      <div>
-        <input type="text" placeholder="tucorreo@gmail.com" class="start-input">
-        <button type="button" class="start-btn">Comenzar</button>
-      </div>
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="124d17cd-6d19-46b7-8a63-0696bbc17a90">
+
+        <input type="email" name="email" placeholder="tucorreo@gmail.com" class="start-input" required>
+
+        <button type="submit" class="start-btn">Comenzar</button>
+      </form>
+
     </div>
   </div>
 
@@ -79,7 +84,8 @@
       </div>
       <div>
         <h3>Crea perfiles para niños</h3>
-        <p>Los niños vivirán aventuras con sus personajes favoritos en un espacio diseñado exclusivamente para ellos, gratis con tu membresía.</p>
+        <p>Los niños vivirán aventuras con sus personajes favoritos en un espacio diseñado exclusivamente para ellos,
+          gratis con tu membresía.</p>
         <img src="images/happy.png">
       </div>
 
@@ -92,42 +98,56 @@
           <input type="checkbox" id="1">
           <label for="1">¿Qué es Netflix?</label>
           <div class="content">
-            Netflix es un servicio de streaming que ofrece una gran variedad de películas, series y documentales premiados en casi cualquier pantalla conectada a internet. Todo lo que quieras ver, sin límites ni comerciales, a un costo muy accesible. Siempre hay algo nuevo por descubrir, ¡y todas las semanas se agregan más películas y series!
+            Netflix es un servicio de streaming que ofrece una gran variedad de películas, series y documentales
+            premiados en casi cualquier pantalla conectada a internet. Todo lo que quieras ver, sin límites ni
+            comerciales, a un costo muy accesible. Siempre hay algo nuevo por descubrir, ¡y todas las semanas se agregan
+            más películas y series!
           </div>
         </li>
         <li>
           <input type="checkbox" id="2">
           <label for="2">¿Cúanto cuesta Netflix?</label>
           <div class="content">
-            Disfruta Netflix en tu smartphone, tablet, smart TV, laptop o dispositivo de streaming, todo por una tarifa plana mensual. Planes desde S/ 28.90 hasta S/ 52.90 al mes. Sin costos adicionales ni contratos.
+            Disfruta Netflix en tu smartphone, tablet, smart TV, laptop o dispositivo de streaming, todo por una tarifa
+            plana mensual. Planes desde S/ 28.90 hasta S/ 52.90 al mes. Sin costos adicionales ni contratos.
           </div>
         </li>
         <li>
           <input type="checkbox" id="3">
           <label for="3">¿Dónde puedo ver Netflix?</label>
           <div class="content">
-            Disfruta donde quieras, cuando quieras. Inicia sesión en tu cuenta de Netflix para ver contenido al instante a través de netflix.com desde tu computadora personal o en cualquier dispositivo con conexión a internet que cuente con la app de Netflix, como smart TV, smartphones, tablets, reproductores multimedia y consolas de juegos. Además, puedes descargar tus series favoritas con la app para iOS o Android. Con la función de descarga, puedes ver contenido donde vayas y sin conexión a internet. Lleva Netflix contigo adonde sea.
+            Disfruta donde quieras, cuando quieras. Inicia sesión en tu cuenta de Netflix para ver contenido al instante
+            a través de netflix.com desde tu computadora personal o en cualquier dispositivo con conexión a internet que
+            cuente con la app de Netflix, como smart TV, smartphones, tablets, reproductores multimedia y consolas de
+            juegos. Además, puedes descargar tus series favoritas con la app para iOS o Android. Con la función de
+            descarga, puedes ver contenido donde vayas y sin conexión a internet. Lleva Netflix contigo adonde sea.
           </div>
         </li>
         <li>
           <input type="checkbox" id="4">
           <label for="4">¿Cómo cancelo?</label>
           <div class="content">
-            Netflix es flexible. Sin contratos molestos ni compromisos. Cancela la membresía online con solo dos clics. No hay cargos por cancelación. Empieza y termina cuando quieras.
+            Netflix es flexible. Sin contratos molestos ni compromisos. Cancela la membresía online con solo dos clics.
+            No hay cargos por cancelación. Empieza y termina cuando quieras.
           </div>
         </li>
         <li>
           <input type="checkbox" id="5">
           <label for="5">¿Qué puedo ver en Netflix?</label>
           <div class="content">
-            Netflix tiene un amplio catálogo de películas, series, documentales, animes, originales premiados y más. Todo lo que quieras ver, cuando quieras.
+            Netflix tiene un amplio catálogo de películas, series, documentales, animes, originales premiados y más.
+            Todo lo que quieras ver, cuando quieras.
           </div>
         </li>
         <li>
           <input type="checkbox" id="6">
           <label for="6">¿Es bueno Netflix para niños?</label>
           <div class="content">
-            La experiencia de Netflix para niños está incluida en la membresía para que los padres tengan el control mientras los peques disfrutan series y películas familiares en su propio espacio. Los perfiles para niños incluyen controles parentales protegidos por PIN que te permiten restringir el contenido que pueden ver los niños en función de la clasificación por edad y bloquear determinados títulos que no quieras que los niños vean.
+            La experiencia de Netflix para niños está incluida en la membresía para que los padres tengan el control
+            mientras los peques disfrutan series y películas familiares en su propio espacio. Los perfiles para niños
+            incluyen controles parentales protegidos por PIN que te permiten restringir el contenido que pueden ver los
+            niños en función de la clasificación por edad y bloquear determinados títulos que no quieras que los niños
+            vean.
           </div>
         </li>
       </ul>
@@ -171,7 +191,8 @@
         </div>
       </div>
 
-      <a href="#" class="traductor"><img src="images/language.png" class="language-img">Español <img src="images/down-arrow.png" class="arrow"></a>
+      <a href="#" class="traductor"><img src="images/language.png" class="language-img">Español <img
+          src="images/down-arrow.png" class="arrow"></a>
 
       <p>Netflix Perú</p>
 
@@ -186,36 +207,36 @@
 
   <script>
     const swiper = new Swiper('.swiper', {
-    
-    speed: 800,
-    spaceBetween: 20,
-    slidesPerGroup: 2,
 
-    // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
+      speed: 800,
+      spaceBetween: 20,
+      slidesPerGroup: 2,
 
-    breakpoints: {
-      300: {
-        slidesPerView: 2,
+      // Navigation arrows
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
       },
-      480: {
-        slidesPerView: 3,
-      },
-      768: {
-        slidesPerView: 4,
-      },
-      1024: {
-        slidesPerView: 4,
-      },
-      1201: {
-        slidesPerView: 5,
-      },
-    }
 
-  });
+      breakpoints: {
+        300: {
+          slidesPerView: 2,
+        },
+        480: {
+          slidesPerView: 3,
+        },
+        768: {
+          slidesPerView: 4,
+        },
+        1024: {
+          slidesPerView: 4,
+        },
+        1201: {
+          slidesPerView: 5,
+        },
+      }
+
+    });
 
 
 
@@ -225,4 +246,5 @@
 
 
 </body>
+
 </html>
